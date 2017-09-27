@@ -24,26 +24,26 @@ npm run unit
 npm test
 ```
 ### 目录结构
-  |-- build                                  // webpack配置文件
-	|-- config                                 // 项目打包路径
-	|-- static                                 // 静态文件目录
-	|-- src                                    // 源码目录
-  |   |-- asssets                            // 自定义js css ... 文件
-  |       |-- js                             // 自定义js文件
-  |           |-- formatter.js               // 格式化
-  |           |-- i18n.js                    // i18n自定义配置字典
-	|   |-- components                         // 自定义组件
-  |   |-- views                              // 组件
-  |       |-- home                           // 首页                
-  |       |-- i18n                           // 国际化
-	|   |-- App.vue                            // 页面入口
-	|   |-- main.js                            // 程序入口
-	|-- .babelrc                               // ES6语法编译配置
-	|-- .editorconfig                          // 代码编写规格
-	|-- .gitignore                             // push忽略文件
-	|-- index.html                             // 入口html页面
-	|-- package.json                           // 依赖及配置
-	|-- README.md                              // 简介
+  |-- build                                  // webpack配置文件 <br />
+	|-- config                                 // 项目打包路径 <br />
+	|-- static                                 // 静态文件目录 <br />
+	|-- src                                    // 源码目录 <br />
+  |   |-- asssets                            // 自定义js css ... 文件 <br />
+  |       |-- js                             // 自定义js文件 <br />
+  |           |-- formatter.js               // 格式化 <br />
+  |           |-- i18n.js                    // i18n自定义配置字典 <br />
+	|   |-- components                         // 自定义组件 <br />
+  |   |-- views                              // 组件 <br />
+  |       |-- home                           // 首页 <br />      
+  |       |-- i18n                           // 国际化 <br />
+	|   |-- App.vue                            // 页面入口 <br />
+	|   |-- main.js                            // 程序入口 <br />
+	|-- .babelrc                               // ES6语法编译配置 <br />
+	|-- .editorconfig                          // 代码编写规格 <br />
+	|-- .gitignore                             // push忽略文件 <br />
+	|-- index.html                             // 入口html页面 <br />
+	|-- package.json                           // 依赖及配置 <br />
+	|-- README.md                              // 简介 <br />
 
 ------------------
 
