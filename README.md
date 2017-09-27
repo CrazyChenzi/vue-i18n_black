@@ -23,30 +23,29 @@ npm run unit
 # run all tests
 npm test
 ```
-### 目录结构
-  |-- build                                  // webpack配置文件
-	|-- config                                 // 项目打包路径
-	|-- static                                 // 静态文件目录
-	|-- src                                    // 源码目录
-  |   |-- asssets                            // 自定义js css ... 文件
-  |       |-- js                             // 自定义js文件
-  |           |-- formatter.js               // 格式化
-  |           |-- i18n.js                    // i18n自定义配置字典
-	|   |-- components                         // 自定义组件
-  |   |-- views                              // 组件
-  |       |-- home                           // 首页
-  |           |-- home.vue                    
-  |       |-- i18n                           // 国际化
-  |           |-- i18n.vue                   // 国际化demo组件
-	|   |-- App.vue                            // 页面入口
-	|   |-- main.js                            // 程序入口
-	|-- .babelrc                               // ES6语法编译配置
-	|-- .editorconfig                          // 代码编写规格
-	|-- .gitignore                             // push忽略文件
-	|-- index.html                             // 入口html页面
-	|-- package.json                           // 依赖及配置
-	|-- README.md                              // 简介
+# 项目布局
 
+```
+.
+├── build                                       // webpack配置文件
+├── config                                      // 项目打包路径
+├── src                                         // 源码目录
+│   ├── components                              // 组件
+│   ├── views
+│   │   ├── home
+│   │   │   ├── home.vue                        // 首页
+│   │   ├── i18n
+│   │   │   ├── i18n.vue                        // 国际化
+│   ├── assets                                  // 自定义js
+│   │   │   ├── js                              // js
+│   │   │   │   ├── formatter.js                // 格式化
+│   │   │   │   ├── i18n.js                     // 字典
+│   ├── router
+│   │   └── router.js                           // 路由配置
+│   ├── App.vue                                 // 页面入口文件
+│   ├── main.js                                 // 程序入口文件，加载各种公共组件
+├── index.html                                  // 入口html文件                           
+.
 ------------------
 
 ###说明
@@ -55,6 +54,6 @@ npm test
 ------------------
 
 ###附件 Vue + iview 实现的后台管理系统(使用iview遇到问题的可以来看此demo)
-(https://github.com/Blackloser/vue-iview_Black)
+https://github.com/Blackloser/vue-iview_Black
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
