@@ -34,10 +34,8 @@ npm test
   |           |-- i18n.js                    // i18n自定义配置字典
 	|   |-- components                         // 自定义组件
   |   |-- views                              // 组件
-  |       |-- home                           // 首页
-  |           |-- home.vue                    
+  |       |-- home                           // 首页                
   |       |-- i18n                           // 国际化
-  |           |-- i18n.vue                   // 国际化demo组件
 	|   |-- App.vue                            // 页面入口
 	|   |-- main.js                            // 程序入口
 	|-- .babelrc                               // ES6语法编译配置
@@ -55,6 +53,6 @@ npm test
 ------------------
 
 ###附件 Vue + iview 实现的后台管理系统(使用iview遇到问题的可以来看此demo)
-(https://github.com/Blackloser/vue-iview_Black)
+https://github.com/Blackloser/vue-iview_Black
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
