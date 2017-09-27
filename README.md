@@ -23,6 +23,8 @@ npm run unit
 # run all tests
 npm test
 ```
+# 部分截图
+<img src="https://github.com/Blackloser/vue-i18n_black/tree/dev/static/img/jdfw.gif" width="800" height="800"/> 
 # 项目布局
 
 ```
