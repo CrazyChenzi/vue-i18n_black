@@ -25,9 +25,9 @@ npm test
 ```
 # 部分截图
 
+### 国际化系列
 
-
-<img src="https://github.com/Blackloser/vue-i18n_black/blob/master/images/jdfw.gif" width="800" height="400"/>
+<img src="https://github.com/Blackloser/vue-i18n_black/blob/master/images/jdfw.png" width="800" height="400"/> <img src="https://github.com/Blackloser/vue-i18n_black/blob/master/images/jdfw.gif" width="800" height="400"/>
 
 
 
