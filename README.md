@@ -23,33 +23,29 @@ npm run unit
 # run all tests
 npm test
 ```
-### 目录结构
-  |-- build                                  // webpack配置文件
-	|-- config                                 // 项目打包路径
-	|-- static                                 // 静态文件目录
-	|-- src                                    // 源码目录
-	|   |-- components                         // 组件
-	|       |-- common                         // 全局
-	|           |-- about.vue                  // 关于页面
-	|           |-- index.vue                  // 入口
-	|           |-- login.vue                  // 登录页面
-	|   	|-- page                           // 主要页面
-	|           |-- eharts.vue                 // 百度echarts
-	|           |-- form.vue                   // 表单
-	|           |-- rtf.vue                    // 富文本框
-	|           |-- markdown-viewer.vue        // markdown显示
-	|           |-- markdown-editor.vue        // markdown编辑器
-	|           |-- table.vue                  // 表格
-	|           |-- upload.vue                 // 文件上传
-	|   |-- App.vue                            // 页面入口
-	|   |-- main.js                            // 程序入口
-	|-- .babelrc                               // ES6语法编译配置
-	|-- .editorconfig                          // 代码编写规格
-	|-- .gitignore                             // push忽略文件
-	|-- index.html                             // 入口html页面
-	|-- package.json                           // 依赖及配置
-	|-- README.md                              // 简介
+# 项目布局
 
+```
+.
+├── build                                       // webpack配置文件
+├── config                                      // 项目打包路径
+├── src                                         // 源码目录
+│   ├── components                              // 组件
+│   ├── views
+│   │   ├── home
+│   │   │   ├── home.vue                        // 首页
+│   │   ├── i18n
+│   │   │   ├── i18n.vue                        // 国际化
+│   ├── assets                                  // 自定义js
+│   │   │   ├── js                              // js
+│   │   │   │   ├── formatter.js                // 格式化
+│   │   │   │   ├── i18n.js                     // 字典
+│   ├── router
+│   │   └── router.js                           // 路由配置
+│   ├── App.vue                                 // 页面入口文件
+│   ├── main.js                                 // 程序入口文件，加载各种公共组件
+├── index.html                                  // 入口html文件                           
+.
 ------------------
 
 ###说明
