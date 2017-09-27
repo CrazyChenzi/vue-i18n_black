@@ -24,7 +24,10 @@ npm run unit
 npm test
 ```
 # 部分截图
-<img src="https://github.com/Blackloser/vue-i18n_black/tree/master/images/jdfw.gif" width="800" height="400"/> 
+
+
+
+<img src="https://github.com/Blackloser/vue-i18n_black/blob/master/images/jdfw.gif" width="800" height="400"/>
 
 
 
